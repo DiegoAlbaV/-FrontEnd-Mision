@@ -1,0 +1,29 @@
+.menu {
+    margin: 0;
+    padding: 5px;
+    background-color: #FFD4DC;
+    
+  }
+  
+  .menu > h1, .elemento {
+    margin: 5px;
+    padding: 5px;
+    
+  }
+
+  table, th, td {
+    border:1px solid black;
+  }
+  #up-table{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #C56E90;
+    color: whitesmoke;
+  }

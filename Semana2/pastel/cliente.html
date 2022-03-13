@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="clientestyle.css">
+    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/2498/premium/2498744.png?token=exp=1647196017~hmac=f7bb4f85010b612521b4eeaa372cb3a3">
+
+    <title>Cliente Prema</title>
+</head>
+<body>
+    <header>
+        <img src="./img/premapastel_logo.png"  alt="Pastelería Prema Logo">
+        <h2>Cliente Prema</h2>
+        <h5>2880 Broadway, New York, NY 10025, EE. UU.</h5>
+    </header>
+    <ul>
+        <li><a class="active" href="./index.html">Inicio</a></li>
+        <li><a href="./cliente.html">Cliente</a></li>
+        <li><a href="./pastelero.html">Pastelero</a></li>
+      </ul>
+<br><br>
+      <section>
+        <article class="menu">
+            <h1 id="up-table"> Formulario de Compra</h1>
+            
+            <div class="row">
+                <div class="column">
+                    <br>
+                        <label for="Input1" id="label"> Cliente:  <label>
+                        <input type="text" id="Input1" name="Input1"><br><br>
+
+                        <label for="correo1">Correo Electrónico: </label>
+                        <input type="email" id="correo1" name="correo1"><br><br>
+    
+    <label for="numero1">Número de Teléfono: </label>
+    <input type="number" id="numero1" name="tel1" maxlength="10"><br><br>
+    
+    <label for="Input1"> Descripción del Pastel: </label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <label for="Input1"> Fecha y Hora de Entrega: </label><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="time" id="fecha1" name="fecha4"><br><br>
+
+    <label> Tipo de Pan Base: </label><br>
+    <input type="radio" id="molde" name="TipoPan" value="molde">
+    <label for="molde">Pan de molde </label><br>
+
+    <input type="radio" id="integral" name="TipoPan" value="integral">
+    <label for="integral">Pan integral</label><br>
+
+    <input type="radio" id="centeno" name="TipoPan" value="centeno">
+    <label for="centeno">Pan de centeno</label><br><br>
+
+
+
+    <label for="archivo1"> Color de la Decoración: </label><br>
+    <input type="color" id="color1" name="color1"><br><br>
+
+    <label for="archivo1"> Imágen para Decoración Especial: </label><br>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+    
+                </div>
+
+              </div>
+
+            <article class="form">
+                <p>
+                    <br>
+                <button class="button" onclick="alertaCompra()">
+                    <a href="./index.html">
+                    Enviar Orden de Compra
+                </a>
+                </button>
+                <br><br>
+            </p>
+<script>
+function alertaCompra() {
+  alert("TU ORDEN HA SIDO ENVIADA!");
+}
+</script>
+          </article>
+        </article>  
+            </section>
+
+</body>
+</html>
